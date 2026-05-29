@@ -17,7 +17,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         exit;
     }
 
-    $error = 'Nama atau password salah. Coba akun Nadine, Audrey, atau Richard.';
+    $error = 'Only Nadine/Audrey/Richard allowed :D';
 }
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>StudySync Login</title>
+    <title>JONGMINGStudy Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
@@ -36,8 +36,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <section class="login-hero">
             <div class="brand-mark">S</div>
             <p class="eyebrow">Student productivity workspace</p>
-            <h1>StudySync</h1>
-            <p>Manage assignments, deadlines, focus sessions, and progress in one calm dashboard.</p>
+            <h1>JONGMINGStudy</h1>
+            <p>Manage assignments, deadlines, focus sessions, and progress. All in one dashboard.</p>
             <div class="login-preview">
                 <div>
                     <span>Today Focus</span>
@@ -74,7 +74,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 </label>
                 <label>
                     <span>Password</span>
-                    <input type="password" name="password" placeholder="Example: nadine123" required>
+                    <input type="password" name="password" placeholder="Enter your password" required>
                 </label>
                 <button class="btn btn-primary" type="submit">Sign in</button>
             </form>
