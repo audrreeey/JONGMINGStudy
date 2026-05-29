@@ -42,7 +42,7 @@ INSERT INTO users (name, email, password, avatar_color) VALUES
 INSERT INTO categories (name, icon, color) VALUES
 ('Database', 'DB', '#5B6CFF'),
 ('Statistics', 'ST', '#FBBF24'),
-('Physics', 'PH', '#22D3EE'),
+('Operating Systems', 'OS', '#22D3EE'),
 ('Data Science', 'DS', '#7C4DFF'),
 ('Programming', 'PR', '#4CAF50'),
 ('Mathematics', 'MT', '#FF6B6B');
@@ -53,7 +53,7 @@ INSERT INTO tasks (user_id, category_id, title, description, priority, deadline,
 (1, 2, 'Statistics quiz review', 'Review probability distribution examples before quiz.', 'High', '2026-05-30', 20, 'Not Started'),
 (1, 6, 'Linear algebra exercises', 'Complete matrix transformation worksheet.', 'Low', '2026-06-12', 100, 'Completed'),
 (2, 4, 'Data visualization notebook', 'Clean dataset and prepare charts for presentation.', 'High', '2026-06-03', 55, 'In Progress'),
-(2, 3, 'Physics lab summary', 'Write discussion and conclusion for motion experiment.', 'Medium', '2026-06-08', 10, 'Not Started'),
+(2, 3, 'Operating Systems quiz', 'Review key concepts for the upcoming quiz.', 'Medium', '2026-06-08', 10, 'Not Started'),
 (2, 1, 'SQL join practice', 'Practice inner join, left join, and grouping queries.', 'Low', '2026-06-11', 100, 'Completed'),
 (2, 5, 'PHP session demo', 'Prepare login session explanation for class demo.', 'High', '2026-05-31', 35, 'In Progress'),
 (3, 5, 'Algorithm assignment', 'Solve sorting and searching exercises.', 'High', '2026-06-01', 80, 'In Progress'),
